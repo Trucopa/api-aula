@@ -4,7 +4,7 @@ class Core {
         this.startDatabase();
     }
     startDatabase() {
-        mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
+        mongoose.connect('mongodb+srv://ufal:IjDYmDlLHAiqchsX@cluster0.ces2k.mongodb.net/roque', {useNewUrlParser: true, useUnifiedTopology: true});
     }
 }
 

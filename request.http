@@ -1,9 +1,13 @@
 ###
-GET http://localhost:3000/users HTTP/1.1
+//GET http://localhost:3000/users HTTP/1.1
+//content-type: application/json
+
+###
+GET http://localhost:3000/users?age=14 HTTP/1.1
 content-type: application/json
 
 ###
-GET http://localhost:3000/users/604967b48950f35ed853fc62 HTTP/1.1
+GET http://localhost:3000/user?cell=82999953339 HTTP/1.1
 content-type: application/json
 
 ###
@@ -12,7 +16,9 @@ content-type: application/json
 
 {
     "name":"Aliny",
-    "cpf": "243423"
+    "cpf": "243423",
+    "age": 12,
+    "cell": 82999953339
 }
 
 ###
